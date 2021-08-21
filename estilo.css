@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100vw;
+    height: 50vh;
+    box-sizing: border-box;
+}
+header > h1{
+    color: #049DBF;
+    text-indent: 80px;
+    padding: 30px 0px 30px 0px;
+    font-size: 40px;
+    font-family: 'Rampart One', cursive;
+}
+header > span{
+    color: #8C8303;
+    padding-left: 80px;
+    font-size: 30px;
+    font-family: 'Rampart One', cursive;
+    
+}
+header > p{
+    text-indent: 80px;
+    font-size: 22px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+#container{
+    display: flex;
+}
+
+aside{
+    box-sizing: border-box;
+    width: 50vw;
+    height: 50vh;
+}
+
+.asi1{
+    float: left;
+    background-color: #049dbfd8;
+}
+.preco{
+    font-size: 55px;
+    color: white;
+    padding-left: 80px;
+    font-family: 'Varela Round', sans-serif;
+}
+aside > h2{
+    font-size: 50px;
+    text-indent: 80px;
+    padding: 45px 0px 25px 0px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+.asi1 > p{
+    text-indent: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+button{
+    width: 30vw;
+    margin: 20px 0px 0px 80px;
+    height: 10vh;
+    background-color: lime;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.asi2{
+    float: right;
+    background-color: #04acbfbe;
+}
+
+.asi2 > p{
+    padding: 0px 200px 0px 80px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-align-last: center;
+    font-family: 'Varela Round', sans-serif;
+}
