@@ -75,6 +75,12 @@ button{
     border: none;
     color: white;
     font-family: 'Varela Round', sans-serif;
+    transition: 1s;
+}
+button:hover{
+    background-color: rgba(0, 255, 0, 0.527);
+    text-shadow: 2px 2px 20px black;
+    box-shadow: lime 1px 1px 10px;
 }
 
 .asi2{
@@ -90,3 +96,87 @@ button{
     text-align-last: center;
     font-family: 'Varela Round', sans-serif;
 }
+
+@media screen and (min-width: 100px) and (max-width: 500px){
+    header{
+        min-width: 100px;
+        max-width: 437px;
+        height: 55vh;
+        margin: auto;
+    }
+    header > h1{
+        color: #049DBF;
+        text-indent: 5px;
+        padding: 10px 10px 10px 0px;
+        font-size: 26px;
+    }
+    header > span{
+        padding-left: 5px;
+        font-size: 16px;
+        
+    }
+    header > p{
+        padding-left: 5px;
+        text-indent: 0px;
+        font-size: 17px;
+        min-width: 400px;
+        max-width: 460px;
+        padding-right: 5px;
+        text-align: justify;
+    }
+
+    #container{
+        display: block;
+    }
+    
+    aside{
+        box-sizing: border-box;
+        min-width: 300px;
+        max-width: 400px;
+        height: 310px;
+        margin: auto;
+    }
+    
+    .asi1{
+        float: none;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .asi2{
+        float: none;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .preco{
+        font-size: 45px;
+        color: white;
+        padding-left: 80px;
+    }
+    aside > h2{
+        font-size: 25px;
+        text-indent: 0px;
+        text-align: center;
+        padding: 35px 0px 25px 0px;
+    }
+    .asi1 > p{
+        text-indent: 0px;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 5px 10px 5px;
+    }
+    
+    button{
+        width: 40vw;
+        margin: 30px 0px 0px 50px;
+        height: 10vh;
+        background-color: lime;
+        border-radius: 10px;
+        border: none;
+    }
+    .asi2 > p{
+        padding: 10px 5px 10px 5px;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+    }  
+} 
